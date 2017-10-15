@@ -1,0 +1,17 @@
+{
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "codemetrics.basics.CodeLensEnabled": false,
+    "codemetrics.basics.EnabledForJS": false,
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.iconTheme": "vs-minimal",
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/doc": true
+    },
+    "editor.rulers": [
+        100
+    ]
+}

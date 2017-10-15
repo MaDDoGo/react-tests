@@ -1,0 +1,63 @@
+{
+  "name": "teaching-gui",
+  "version": "1.0.0",
+  "description": "Teaching react gui",
+  "main": "index.js",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-runtime": "^6.26.0",
+    "bootstrap": "^4.0.0-alpha.6",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.2",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-addons-transition-group": "^15.6.2",
+    "react-dom": "^15.6.2",
+    "reactstrap": "^4.8.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-jest": "^21.2.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.5",
+    "enzyme": "^3.1.0",
+    "enzyme-adapter-react-15": "^1.0.1",
+    "eslint": "^4.5.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jest": "^21.2.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.3.0",
+    "file-loader": "^1.1.5",
+    "jest": "^21.2.1",
+    "nightmare": "^2.10.0",
+    "node-sass": "^4.5.3",
+    "postcss-loader": "^2.0.6",
+    "precss": "^2.0.0",
+    "react-hot-loader": "^3.0.0-beta.7",
+    "react-test-renderer": "^15.6.2",
+    "regenerator-runtime": "^0.11.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --progress --colors --hot",
+    "test": "jest test"
+  },
+  "author": "",
+  "license": "ISC",
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+      "\\.(css|less|scss)$": "<rootDir>/__mocks__/styleMock.js"
+    }
+  }
+}
