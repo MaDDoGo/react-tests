@@ -50,7 +50,7 @@
   },
   "scripts": {
     "start": "webpack-dev-server --progress --colors --hot",
-    "test": "jest test"
+    "test": "jest --coverage"
   },
   "author": "",
   "license": "ISC",
