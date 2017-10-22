@@ -1,3 +1,6 @@
 language: node_js
 node_js: '6' # or another
 cache: npm
+after_script:
+  - npm install -g codeclimate-test-reporter
+  - codeclimate-test-reporter < ./coverage/lcov.info
