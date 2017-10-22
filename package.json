@@ -49,6 +49,7 @@
   },
   "scripts": {
     "start": "webpack-dev-server --progress --colors --hot",
+    "dist": "webpack -p",
     "test": "jest --coverage"
   },
   "author": "",

@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './nav-avatar.scss';
 
-export default class NavAvatar extends React.Component {
+class NavAvatar extends React.Component {
   constructor(props) {
     super(props);
     this.tag = props.tag;
@@ -38,3 +38,5 @@ NavAvatar.defaultProps = {
   img: 'https://www.synergybis.com/wp-content/uploads/2016/10/img.png',
   //img: 'https://qph.ec.quoracdn.net/main-qimg-d83ecc03a7cf92be269c9eb7c7575725',
 };
+
+export default NavAvatar;
