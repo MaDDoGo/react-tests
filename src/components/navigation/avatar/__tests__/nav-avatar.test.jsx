@@ -8,7 +8,6 @@ configure({ adapter: new Adapter() });
 describe('Avatar component', () => {
   test('should display image', () => {
     const wrapper = mount(<Avatar />);
-    console.log(wrapper.text());
     expect(wrapper.find('img').filterWhere(img => img.prop('alt') === 'avatar-img')).toHaveLength(1);
   });
 });
