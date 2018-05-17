@@ -6,6 +6,7 @@ React boilerplate
 ### Build status
 
 [![Build status](https://ci.appveyor.com/api/projects/status/63s157lj7m9prk8x?svg=true)](https://ci.appveyor.com/project/MaDDoGo/react-tests)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FMaDDoGo%2Freact-tests.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FMaDDoGo%2Freact-tests?ref=badge_shield)
 
 [![CircleCI](https://circleci.com/gh/MaDDoGo/react-tests/tree/master.svg?style=svg)](https://circleci.com/gh/MaDDoGo/react-tests/tree/master)
 
@@ -24,3 +25,6 @@ React boilerplate
 ## Project Info
 
 This project is my view of a React Boilerplate with some Services enabled (CI and Quality).
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FMaDDoGo%2Freact-tests.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FMaDDoGo%2Freact-tests?ref=badge_large)
