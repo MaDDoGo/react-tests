@@ -22,6 +22,10 @@ React boilerplate
 
 [![Test Coverage](https://api.codeclimate.com/v1/badges/39671a6430075c41d121/test_coverage)](https://codeclimate.com/github/MaDDoGo/react-tests/test_coverage)
 
+### Dependency status
+
+[![Known Vulnerabilities](https://snyk.io/test/github/MaDDoGo/react-tests/badge.svg?targetFile=package.json)](https://snyk.io/test/github/MaDDoGo/react-tests?targetFile=package.json)
+
 ## Project Info
 
 This project is my view of a React Boilerplate with some Services enabled (CI and Quality).
