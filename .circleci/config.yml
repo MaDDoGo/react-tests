@@ -15,3 +15,8 @@ jobs:
       - run:
         name: Codecov
         command: bash <(curl -s https://codecov.io/bash)
+workflows:
+  Hello Workflow:
+    jobs:
+    - hello/hello-build
+  version: 2
