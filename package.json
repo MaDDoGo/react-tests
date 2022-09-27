@@ -8,10 +8,10 @@
     "babel-runtime": "^6.26.0",
     "bootstrap": "^4.0.0-alpha.6",
     "prop-types": "^15.5.10",
-    "react": "^15.6.2",
+    "react": "^16.5.0",
     "react-addons-css-transition-group": "^15.6.2",
     "react-addons-transition-group": "^15.6.2",
-    "react-dom": "^15.6.2",
+    "react-dom": "^16.5.0",
     "reactstrap": "^4.8.0"
   },
   "devDependencies": {
